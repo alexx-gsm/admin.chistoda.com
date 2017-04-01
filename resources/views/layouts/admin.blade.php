@@ -13,8 +13,8 @@
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Styles -->
-    <link href="{{ asset('css/bootstrap/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+    <link href="/css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="/css/admin.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>

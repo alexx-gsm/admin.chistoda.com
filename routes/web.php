@@ -3,7 +3,7 @@
 //Route::get('/admin', 'Admin\IndexController@index');
 
 Route::get('/', function () {
-    return Redirect::to('/admin/login');
+    return redirect()->to('/admin/login');
 });
 //Route::get('/register', function () {
 //    return Redirect::to('/admin/login');
