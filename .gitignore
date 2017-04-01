@@ -1,0 +1,15 @@
+/node_modules
+/public/storage
+/public/hot
+/storage/*.key
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+ChistoDA_price_2017_04_01.pdf
+_ide_helper.php
+phpunit.xml
+public/assets
+readme.md
+webpack.mix.js
