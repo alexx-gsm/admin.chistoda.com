@@ -13,8 +13,8 @@
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Styles -->
-    <link href="/css/bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="/css/admin.css" rel="stylesheet">
+    <link href="/admin/css/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="/admin/css/admin.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -28,7 +28,7 @@
         <nav id="top-nav">
             <div class="top-nav__logo">
                 <a href="{{ url('/admin') }}">
-                    <img src="{{ asset('images/admin/logo.svg') }}" alt="ЧистоДа">
+                    <img src="{{ asset('/admin/images/admin/logo.svg') }}" alt="ЧистоДа">
                 </a>
             </div>
             <div class="top-nav__user">
