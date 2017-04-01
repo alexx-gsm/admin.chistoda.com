@@ -8,7 +8,15 @@ Route::get('/register', function () {
     return Redirect::to('/admin/login');
 });
 
+Route::get('/admin/register', function () {
+    return Redirect::to('/admin/login');
+});
+
 Route::get('/password/reset', function () {
+    return Redirect::to('/admin/login');
+});
+
+Route::get('admin/password/reset', function () {
     return Redirect::to('/admin/login');
 });
 
