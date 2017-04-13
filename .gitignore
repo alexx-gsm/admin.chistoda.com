@@ -13,3 +13,4 @@ phpunit.xml
 public/assets
 readme.md
 webpack.mix.js
+/resources/assets/less/vars/_main.less

@@ -24,7 +24,7 @@
     </script>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="container-fluid">
         <nav id="top-nav">
             <div class="top-nav__logo">
                 <a href="{{ url('/admin') }}">
@@ -72,7 +72,9 @@
 
     </div>
 
-    {{--<!-- Scripts -->--}}
-    {{--<script src="{{ asset('js/app.js') }}"></script>--}}
+    <!-- Scripts -->
+    <script src="{{ asset('/admin/js/jquery-3.2.0.min.js') }}"></script>
+
+@yield('scripts')
 </body>
 </html>

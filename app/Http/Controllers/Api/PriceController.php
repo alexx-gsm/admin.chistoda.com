@@ -15,9 +15,12 @@ class PriceController extends Controller
      */
     public function index()
     {
-        $price = Price::orderby('id', 'desc')->first();
-        return response()->json($price);
+        return response()->json(Price::getActive());
 
-//        return response()->json($price);
+    }
+
+    public function getInactive()
+    {
+        return response()->json(Price::getInactive());
     }
 }

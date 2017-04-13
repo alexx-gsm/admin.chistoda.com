@@ -22,3 +22,14 @@
 .flex-column-between-start() { display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
 .flex-column-between-end() { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end;}
 .flex-column-center-end() { display: flex; flex-direction: column; justify-content: center; align-items: flex-end;}
+
+.hovered-link(@color: @color-main) {
+  color: @color;
+  a       { color: @color; }
+  &:hover,
+  a:hover { color: fade(@color, 90%); }
+}
+.hovered-icon(@color: @color-main) {
+  color: @color;
+  &:hover { color: darken(@color, 5%); }
+}
